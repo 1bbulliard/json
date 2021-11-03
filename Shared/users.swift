@@ -26,6 +26,8 @@ struct User: Codable, Identifiable {
     }
 }
 
+// this DOES NOT WORK so dont access like this 
+/*
 class ReadData: ObservableObject {
     @Published var users = [User]()
     
@@ -49,3 +51,4 @@ class ReadData: ObservableObject {
         
     }
 }
+*/

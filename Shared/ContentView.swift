@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
  //   @ObservedObject var datas = ReadData()
     var body: some View {
-      
+     
         List(users) {user in
             VStack(alignment: .leading) {
                 Text(user.name)
@@ -28,6 +28,8 @@ struct ContentView: View {
                     Spacer()
                     Text(user.phone)
                     Spacer()
+                    
+                    
             }
         }
        
