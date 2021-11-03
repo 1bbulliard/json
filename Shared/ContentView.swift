@@ -8,14 +8,39 @@
 import SwiftUI
 
 struct ContentView: View {
+ //   @ObservedObject var datas = ReadData()
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+      
+        List(users) {user in
+            VStack(alignment: .leading) {
+                Text(user.name)
+                    .font(.title)
+                    
+                    .fontWeight(.heavy)
+            //    print("\(user.name)")
+                HStack {
+                    Text(user.addr)
+                        .font(.title3)
+                    Spacer()
+                    Text(user.city)
+                    Spacer()
+                    Text(user.state)
+                    Spacer()
+                    Text(user.phone)
+                    Spacer()
+            }
+        }
+       
     }
 }
-
+}
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Group {
+            ContentView()
+                .previewInterfaceOrientation(.portraitUpsideDown)
+            ContentView()
+                .previewInterfaceOrientation(.landscapeLeft)
+        }
     }
 }
