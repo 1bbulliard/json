@@ -28,9 +28,15 @@ struct ContentView: View {
                     Spacer()
                     Text(user.phone)
                     Spacer()
-                    
-                    
-            }
+                }
+              //
+                    VStack(alignment: .leading){
+                    user.image
+                        .resizable()
+                        .frame(width: 150, height: 150)
+                    }
+                
+                
         }
        
     }
@@ -46,3 +52,4 @@ struct ContentView_Previews: PreviewProvider {
         }
     }
 }
+

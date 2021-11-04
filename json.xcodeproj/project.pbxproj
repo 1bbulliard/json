@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		DF60164027333E4400CE47ED /* users2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF60163F27333E4400CE47ED /* users2.swift */; };
 		DF60164127333E4400CE47ED /* users2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF60163F27333E4400CE47ED /* users2.swift */; };
+		DF601643273391E600CE47ED /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF601642273391E600CE47ED /* CircleImage.swift */; };
+		DF601644273391E600CE47ED /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF601642273391E600CE47ED /* CircleImage.swift */; };
 		DFD5B2F1272C7C5100378B78 /* jsonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD5B2C9272C7C5000378B78 /* jsonApp.swift */; };
 		DFD5B2F2272C7C5100378B78 /* jsonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD5B2C9272C7C5000378B78 /* jsonApp.swift */; };
 		DFD5B2F3272C7C5100378B78 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD5B2CA272C7C5000378B78 /* ContentView.swift */; };
@@ -23,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		DF60163F27333E4400CE47ED /* users2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = users2.swift; sourceTree = "<group>"; };
+		DF601642273391E600CE47ED /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		DFD5B2C9272C7C5000378B78 /* jsonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jsonApp.swift; sourceTree = "<group>"; };
 		DFD5B2CA272C7C5000378B78 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DFD5B2CB272C7C5100378B78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -69,6 +72,7 @@
 				DFD5B305272C7CA300378B78 /* users.swift */,
 				DFD5B30C272C8B3700378B78 /* userdata.json */,
 				DF60163F27333E4400CE47ED /* users2.swift */,
+				DF601642273391E600CE47ED /* CircleImage.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -194,6 +198,7 @@
 				DF60164027333E4400CE47ED /* users2.swift in Sources */,
 				DFD5B306272C7CA300378B78 /* users.swift in Sources */,
 				DFD5B2F1272C7C5100378B78 /* jsonApp.swift in Sources */,
+				DF601643273391E600CE47ED /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +210,7 @@
 				DF60164127333E4400CE47ED /* users2.swift in Sources */,
 				DFD5B307272C7CA300378B78 /* users.swift in Sources */,
 				DFD5B2F2272C7C5100378B78 /* jsonApp.swift in Sources */,
+				DF601644273391E600CE47ED /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
