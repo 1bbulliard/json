@@ -11,7 +11,7 @@ import CoreLocation
 
 struct User: Hashable, Codable, Identifiable {
  //   enum CodingKeys: CodingKey {Case name}
- //   var id = UUID()
+  //  var id = UUID()
     var id: Int
     var name: String
     var addr: String
@@ -25,7 +25,7 @@ struct User: Hashable, Codable, Identifiable {
     }
 }
    enum CodingKeys: String, CodingKey {
-      //  case UUID()
+  //    case id
         case name
         case addr
         case city

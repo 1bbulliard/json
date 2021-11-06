@@ -10,12 +10,12 @@
  },
  {
     "id": 1002,
-   "name": "tom",
-   "addr": "2 main",
-   "city": "breaux bridge",
+   "name": "Tina",
+   "addr": "107 ascot lane",
+   "city": "lafayette",
    "state": "la",
    "phone": "3372777379",
-   "imageName": "charleyrivers"
+   "imageName": "tina"
  },
  {
      "id": 1003,

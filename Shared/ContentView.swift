@@ -20,17 +20,24 @@ struct ContentView: View {
             //    print("\(user.name)")
                 HStack {
                     Text(user.addr)
-                        .font(.title3)
+                        .font(.system(size: 10))
                     Spacer()
                     Text(user.city)
+                        .font(.system(size: 10))
                     Spacer()
                     Text(user.state)
+                        .font(.system(size: 10))
                     Spacer()
                     Text(user.phone)
+                        .font(.system(size: 10))
                     Spacer()
                 }
               //
-                    VStack(alignment: .leading){
+             //   if (user.id == 1001) {print("hit")}
+            //    else {print("no hit")}
+
+                
+                VStack(alignment: .leading){
                     user.image
                         .resizable()
                         .frame(width: 150, height: 150)
@@ -41,6 +48,7 @@ struct ContentView: View {
        
     }
 }
+    
 }
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
